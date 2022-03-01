@@ -1,10 +1,10 @@
 # ican.sh
-ICAN shell check
+ICAN validation for bash
 
 ### Running the script
 
 ```sh
-sh ican.sh "ICAN ADDRESS"
+sh ican-validate.sh "ICAN ADDRESS"
 ```
 
 ### Return values

@@ -18,6 +18,7 @@ if [[ -x "$BC" ]]; then
 	CHECKSUM=${ICAN:2:2}
 	BCAN=${ICAN:4}
 	BCCO=`echo $BCAN``echo $COUNTRY`
+	SUM=""
 	for ((i=0; i<${#BCCO}; i++)); do
 		SUM+=`alphabet_pos ${BCCO:$i:1}`
 	done
